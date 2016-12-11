@@ -5,10 +5,10 @@ using System.Collections.Generic;
 namespace Lab_OOP_Collections_Generic
 {
     [Serializable]
-    class Collections : IEnumerable
+    class Collection : IEnumerable
     {
         public List<Product> innerList;
-        public Collections()
+        public Collection()
         {
             innerList = new List<Product>();
         }
