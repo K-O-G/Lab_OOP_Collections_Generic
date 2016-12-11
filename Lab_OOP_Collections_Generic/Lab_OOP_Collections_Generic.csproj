@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Collection.cs" />
     <Compile Include="CompareClasse.cs" />
+    <Compile Include="Deque.cs" />
+    <Compile Include="DoublyNode.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
