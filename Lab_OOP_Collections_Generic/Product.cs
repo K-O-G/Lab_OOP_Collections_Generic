@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Lab_OOP_Collections_Generic
 {
@@ -19,9 +17,11 @@ namespace Lab_OOP_Collections_Generic
             this.producer = producer;
             this.price = price;
             this.amount = amount;
-        }        
+        }
+
+        override public string ToString()
+        {
+            return String.Format("{0,3} {1,10} {2,10} {3,5} {4,7}", code, name, producer, price, amount);
+        }
     }
-
-    
-
 }

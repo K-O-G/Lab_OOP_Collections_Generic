@@ -11,10 +11,10 @@ namespace Lab_OOP_Collections_Generic
         int count;  // количество элементов в списке
 
         // добавление элемента
-        public void AddLast(T data)
+        public T AddLast(T data)
         {
             DoublyNode<T> node = new DoublyNode<T>(data);
-
+            
             if (head == null)
                 head = node;
             else
@@ -24,8 +24,9 @@ namespace Lab_OOP_Collections_Generic
             }
             tail = node;
             count++;
+            return tail.Data;
         }
-        public void AddFirst(T data)
+        public T AddFirst(T data)
         {
             DoublyNode<T> node = new DoublyNode<T>(data);
             DoublyNode<T> temp = head;
@@ -36,6 +37,7 @@ namespace Lab_OOP_Collections_Generic
             else
                 temp.Previous = node;
             count++;
+            return head.Data;
         }
 
         //удаление элемента
