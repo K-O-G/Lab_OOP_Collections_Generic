@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static Lab_OOP_Collections_Generic.UI;
 
 namespace Lab_OOP_Collections_Generic
