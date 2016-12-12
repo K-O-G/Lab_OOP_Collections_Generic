@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Collection.cs" />
-    <Compile Include="CompareClasse.cs" />
+    <Compile Include="My collection\Collection.cs" />
+    <Compile Include="My collection\CompareClasse.cs" />
     <Compile Include="Deque\Deque.cs" />
     <Compile Include="Deque\DoublyNode.cs" />
     <Compile Include="Product.cs" />

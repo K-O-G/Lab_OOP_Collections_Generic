@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 namespace Lab_OOP_Collections_Generic
 {
-    [Serializable]
     class Collection : IEnumerable
     {
         public List<Product> innerList;
